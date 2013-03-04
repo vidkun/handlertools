@@ -25,7 +25,7 @@
 			<div id="ipstools">
 				<dl>
 					<dt>VirusTotal Lookup</dt>
-					<dd><form action="https://www.virustotal.com/latest-scan/" id="vt-search-box">
+					<dd><form action="VTSearch.php" id="vt-search-box">
 						<input type="text" style="color: #adb4ba;" name="q" size="18" value="Hash/URL Value" onfocus="clearDefaultandCSS(this)" />
 						<input type="submit" name="Submit" class="clsSearchButton" />
 						</form>
