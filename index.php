@@ -27,19 +27,19 @@
 					<dt>VirusTotal Lookup</dt>
 					<dd><form action="VTSearch.php" id="vt-search-box">
 						<input type="text" style="color: #adb4ba;" name="q" size="18" value="Hash/URL Value" onfocus="clearDefaultandCSS(this)" />
-						<input type="submit" name="Submit" class="clsSearchButton" />
+						<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 						</form>
 					</dd>
 					<dt>SNORT Rule Search</dt>
 					<dd><form action="http://www.snort.org/search/results" id="rule-search-box">
 									<input type="text" style="color: #adb4ba;" name="q" size="18" value="Signature ID" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									</form>
 					</dd>
 					<dt>Cisco's IPS Signature DB</dt>
 					<dd><form method="post" action="logQueryTool.php">
 									<input name="logNumber3" type="text" style="color: #adb4ba;" value="Signature ID" tabindex="1" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" tabindex="3" /><br />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" tabindex="3" /><br />
 									<input name="subLogNumber" type="text" style="color: #adb4ba;" value="SubSig ID" tabindex="2" onfocus="clearDefaultandCSS(this)" />
 									<span style="font-size:.7em;"><em>(optional)</em></span>
 									<input type="hidden" name="ARMED" value="3" />
@@ -48,19 +48,19 @@
 					<dt>Fortinet IPS Database</dt>
 					<dd><form method="post" action="logQueryTool.php">
 									<input name="logNumber5" type="text" style="color: #adb4ba;" value="Fortinet Sig IDs" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="ARMED" value="5" />
 									</form>
 					</dd>
 					<dt>Sonic Wall FW/IPS</dt>
 					<dd><form method="post" action="logQueryTool.php">
 									<input name="logNumber6" type="text" style="color: #adb4ba;" value="SonicALERT" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="ARMED" value="6" />
 									</form><br />
 									<form method="post" action="logQueryTool.php">
 									<input name="logNumber6" type="text" style="color: #adb4ba;" value="ApplicationALERT" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="ARMED" value="7" />
 									</form>
 					</dd>
@@ -71,7 +71,7 @@
 					<dt>Windows NT Event Logs</dt>
 					<dd><form method="post" action="logQueryTool.php">
 									<input name="logNumber1" type="text" style="color: #adb4ba;" value="Search NT Event Logs" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="ARMED" value="1" /><br />
 									<span style="font-size: 0.7em;"><strong>Example:</strong> NTMICROSOFT-WINDOWS-SECURITY-AUDITING<span style="color:red;">4634</span></span><br />
 									<span style="font-size: 0.7em;"><strong>Use:</strong> <span style="color:red;">4634</span></span><br />
@@ -82,7 +82,7 @@
 					<dt>Cisco ASA Syslog IDs</dt>
 					<dd><form method="post" action="logQueryTool.php">
 									<input name="logNumber2" type="text" style="color: #adb4ba;" value="Search Syslog IDs" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="ARMED" value="2" />
 									</form><span style="font-size:.7em;"><em>Enter 6-digit syslog ID only.</em></span>
 					</dd>
@@ -93,7 +93,7 @@
 					<dt>ARIN Whois Look Up</dt>
 					<dd><form method="post" action="logQueryTool.php">
 									<input name="logNumber4" type="text" style="color: #adb4ba;" value="A.B.C.D" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="ARMED" value="4" />
 									</form>
 					</dd>
@@ -101,14 +101,14 @@
 					<dd><form action="http://isc.sans.edu/search.html" name="searchform" method="post">
 									<input type="hidden" value="339442878c22dffc5a9247fb4c499d26d36b8a32" name="token" />
 									<input type="text" style="color: #adb4ba;" value="Port or IP" name="ip" label="site/port/ip search" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="index" value="GO" />
 									</form><span style="font-size:.7em;"><em>Port or IP trending tool.</em></span>
 					</dd>
 					<dt>*NIX Time Stamp Converter</dt>
 					<dd><form method="post" action="nixtime.php">
 									<input name="nixTime" type="text" style="color: #adb4ba;" value="21600" onfocus="clearDefaultandCSS(this)" />
-									<input type="submit" name="Submit" class="clsSearchButton" />
+									<input type="submit" name="Submit" value="Submit" class="clsSearchButton" />
 									<input type="hidden" name="ARMED" value="1" />
 									</form>
 					</dd>
