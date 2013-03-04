@@ -1,7 +1,7 @@
 handlertools
 ============
 
-Collection of tools for common incident handling lookups.
+Collection of tools for common incident handling lookups. Will be hosted at www.handlertools.com for public use.
 
 Most of the original code was written by jmilner. I've cleaned it up some and repurposed for everyone to use.
 I'll be adding some extra features as time permits. First up is adding VirusTotal lookups.
